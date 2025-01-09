@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+:root {
+    --primary-color: #FBC50B;
+    --secondary-color: #009C4C;
+    --white-color: #fff;
+
+    --primary-bg: #FBC50B;
+    --secondary-bg: #009C4C;
+    --white-bg: #fff;
+
+    --btn-primary-bg: #FBC50B;
+    --btn-secondary-bg: #009C4C;
+    --btn-primary-color: #000000;
+    --btn-secondary-color: #fff;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+section {
+    padding: 75px;
+}
+
+.title h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
+/*xxxxxxxxxxxxxxx 
+Header section
+xxxxxxxxxxxxxxxx */
+
+#navbarNav ul li a {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+#navbarNav ul li a:hover {
+    border-bottom: 2px solid var(--primary-color);  
+}
+
+.header-section {
+    background-color: var(--secondary-bg);
+    padding: 5px 0;
+}
+
+/*xxxxxxxxxxxxxxx 
+Slider section
+xxxxxxxxxxxxxxxx */
+
+.slider-section {
+    padding: 0;
+    position: relative;
+}
+
+.slider-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider-caption h1 {
+    font-family: "Itim", cursive;
+    font-size: 6rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.slider-caption p {
+    font-size: 1.5rem;
+    font-weight: 500px;
+    color: var(--white-color);
+}
+
+.slider-caption a {
+    padding: 9px 15px;
+    background-color: var(--btn-primary-bg);
+    color: var(--btn-primary-color);
+    border-radius: 5px;
+    transition: 0.4s ease-out;
+    font-weight: 400;
+}
+
+.slider-caption a:hover {
+    background-color: var(--btn-secondary-bg);
+    color: var(--btn-secondary-color);
+}
+
+/*xxxxxxxxxxxxxxx 
+Farming Guide section
+xxxxxxxxxxxxxxxx */
+
+
+.farming-section .farming-img img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.farming-section .farming-caption h3 {
+    color: var(--primary-color);
+    font-size: 5rem;
+    font-weight: 600;
+
+
+}
+
+.farming-section .farming-caption a {
+    padding: 9px 15px;
+    background-color: var(--btn-primary-bg);
+    color: var(--btn-primary-color);
+    border-radius: 5px;
+    transition: 0.4s ease-out;
+    font-weight: 400;
+}
+
+.farming-section .farming-caption a:hover {
+    background-color: var(--btn-secondary-bg);
+    color: var(--btn-secondary-color);
+}
+
+.farming-section .farming-caption p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/*xxxxxxxxxxxxxxx 
+Crop Details section
+xxxxxxxxxxxxxxxx */
+
+.crop-section .crop-img img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.crop-section .crop-caption h3 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600;
+
+
+}
+
+.crop-section .crop-caption a {
+    padding: 9px 15px;
+    background-color: var(--btn-primary-bg);
+    color: var(--btn-primary-color);
+    border-radius: 5px;
+    transition: 0.4s ease-out;
+    font-weight: 400;
+}
+
+.crop-section .crop-caption a:hover {
+    background-color: var(--btn-secondary-bg);
+    color: var(--btn-secondary-color);
+}
+
+.crop-section .crop-caption p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/*xxxxxxxxxxxxxxx 
+Pest Control section
+xxxxxxxxxxxxxxxx */
+
+.pest-section .pest-img img {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.pest-section .pest-caption h3 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600;
+
+
+}
+
+.pest-section .pest-caption a {
+    padding: 9px 15px;
+    background-color: var(--btn-primary-bg);
+    color: var(--btn-primary-color);
+    border-radius: 5px;
+    transition: 0.4s ease-out;
+    font-weight: 400;
+}
+
+.pest-section .pest-caption a:hover {
+    background-color: var(--btn-secondary-bg);
+    color: var(--btn-secondary-color);
+}
+
+.pest-section .pest-caption p {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* Footer Section */
+
+.footer-section {
+    background-color: var(--btn-secondary-bg);
+}
+
+.last-footer {
+    padding: 10px 0;
+    background-color: var(--primary-bg);
+    color: var(--white-color);
+}
+
+/*xxxxxxxxxxxxxxx 
+Breadcrumbs section
+xxxxxxxxxxxxxxxx */
+
+
+.breadcrumbs-section {
+    padding: 0;
+    position: relative;
+}
+
+.breadcrumbs-section .breadcrumbs-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.breadcrumbs-section .background-img img {
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+.breadcrumbs-section .breadcrumbs-caption h1 {
+    font-family: "Itim", cursive;
+    font-size: 6rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.breadcrumbs-section .breadcrumbs-caption-btn a {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: 0.4s ease-out;
+}
+
+.breadcrumbs-section .breadcrumbs-caption-btn a:hover {
+    color: var(--primary-color);
+}
+
+.breadcrumbs-section .breadcrumbs-caption-btn span {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+/*xxxxxxxxxxxxxxx 
+Contact section
+xxxxxxxxxxxxxxxx */
+
+.contact-section {
+    background-color: #f8f9fa;
+    /* Light background for contrast */
+}
+
+.contact-form {
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.contact-form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.contact-form .btn-primary {
+    background-color: #28a745;
+    /* Green button color */
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #218838;
+}
+
+.Test{
+    background-image: url(../image/breadcrumbs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}

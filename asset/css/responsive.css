@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .farming-caption h3 {
+      font-size: 1.8rem; /* Smaller font size for mobile */
+    }
+  
+    .slider-caption h1 {
+      font-size: 2rem; /* Smaller font size for mobile */
+    }
+  
+    .slider-caption p {
+      font-size: 1rem; /* Smaller font size for mobile */
+    }
+  }
+  
