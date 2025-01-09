@@ -310,9 +310,3 @@ xxxxxxxxxxxxxxxx */
 .contact-form .btn-primary:hover {
     background-color: #218838;
 }
-
-
-.Test {
-    background: rgba(0, 156, 76, 0.5) url(../image/breadcrumbs.jpg) no-repeat center/cover;
-    height: 80vh;
-}
