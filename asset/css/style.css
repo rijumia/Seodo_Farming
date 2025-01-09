@@ -311,9 +311,8 @@ xxxxxxxxxxxxxxxx */
     background-color: #218838;
 }
 
-.Test{
-    background-image: url(../image/breadcrumbs.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.Test {
+    background: rgba(0, 156, 76, 0.5) url(../image/breadcrumbs.jpg) no-repeat center/cover;
     height: 80vh;
 }
